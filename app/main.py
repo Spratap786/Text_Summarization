@@ -5,9 +5,9 @@ from app.model_loader import generate_summary
 
 app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"message": "Welcome to the Text Summarization API!"}
+# @app.get("/")
+# def read_root():
+#     return {"message": "Welcome to the Text Summarization API!"}
 
 class TextRequest(BaseModel):
     text: str
