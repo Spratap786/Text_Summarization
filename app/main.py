@@ -1,7 +1,7 @@
 # main.py
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from myapp.model_loader import generate_summary
+from app.model_loader import generate_summary
 
 app = FastAPI()
 
